@@ -1,4 +1,8 @@
-def merge_sort(arr):
+from typing import List
+
+from utils.custom_types import Number
+
+def merge_sort(arr: List[Number]) -> List[Number]:
     if len(arr) > 1:
         mid = len(arr) // 2
         left = arr[:mid]

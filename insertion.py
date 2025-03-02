@@ -1,4 +1,8 @@
-def insertion_sort(arr):
+from typing import List
+
+from utils.custom_types import Number
+
+def insertion_sort(arr: List[Number]) -> List[Number]:
     for i in range(1, len(arr)):
         x = arr[i]
         j = i - 1
