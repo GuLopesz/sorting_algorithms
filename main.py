@@ -13,8 +13,6 @@ def show_menu():
     print("2 - Selection Sort")
     print("3 - Insertion Sort")
     print("4 - Merge Sort")
-    print("5 - Quick Sort")
-    print("6 - Radix Sort")
     
 
     num = int(input("Digite a opção desejada: "))
