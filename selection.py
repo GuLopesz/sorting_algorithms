@@ -1,4 +1,8 @@
-def selection_sort(arr):
+from typing import List
+
+from utils.custom_types import Number
+
+def selection_sort(arr: List[Number]) -> List[Number]:
     for i in range(len(arr)):
         men = i
         for j in range(i+1, len(arr)):
